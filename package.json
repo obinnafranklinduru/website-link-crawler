@@ -1,0 +1,19 @@
+{
+  "name": "website-link-crawler",
+  "version": "1.0.0",
+  "description": "This is a Node.js application that crawls a website and generates a report of its internal linking structure. It's a useful tool for web marketers, SEO experts, and anyone interested in analyzing the link structure of a website.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/crawl.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Obinna Franklin Duru <obinnafranklinduru>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}
