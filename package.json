@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "axios": "^1.6.8",
-    "jsdom": "^24.0.0"
+    "bottleneck": "^2.19.5",
+    "jsdom": "^24.0.0",
+    "normalizeurl": "^1.0.0",
+    "valid-url": "^1.0.9"
   }
 }
