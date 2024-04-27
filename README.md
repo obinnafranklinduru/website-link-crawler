@@ -6,7 +6,7 @@ This is a Node.js application that crawls a website and generates a report of it
 
 - Crawls a given website and follows internal links
 - Generates a report showing which pages link to which other pages on the site
-- Outputs the report in a human-readable format (e.g., JSON, CSV, or plain text)
+- Outputs the report in a human-readable format ( plain text)
 
 ## Installation
 
@@ -18,14 +18,6 @@ This is a Node.js application that crawls a website and generates a report of it
 
 1. Run the application with the URL of the website you want to crawl: `node crawl.js https://example.com`
 2. The application will start crawling the website and generate a report in the specified output format.
-
-## Configuration
-
-You can customize the behavior of the crawler by modifying the configuration options in the `config.js` file. Available options include:
-
-- `maxDepth`: Maximum depth to crawl the website (default: 3)
-- `outputFormat`: Output format for the report (e.g., 'json', 'csv', 'text')
-- `outputFile`: Path to the output file for the report (default: 'report.txt')
 
 ## Contributing
 

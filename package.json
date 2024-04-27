@@ -5,6 +5,7 @@
   "main": "src/main.js",
   "scripts": {
     "start": "node src/main.js",
+    "start-second": "node src/secondCrawl.js",
     "dev": "node src/crawl.js",
     "test": "jest"
   },
@@ -17,8 +18,10 @@
   "dependencies": {
     "axios": "^1.6.8",
     "bottleneck": "^2.19.5",
+    "cheerio": "^1.0.0-rc.12",
     "jsdom": "^24.0.0",
     "normalizeurl": "^1.0.0",
+    "url": "^0.11.3",
     "valid-url": "^1.0.9"
   }
 }
